@@ -2,12 +2,14 @@ import React,{useState} from 'react'
 import Nav from '../components/Nav'
 import axios from "axios"
 import { toast } from 'react-toastify'
+import { useNavigate } from 'react-router-dom'
+
 const AddStudent = () => {
   const [name,setName] = useState("")
   const [email,setEmail] = useState("")
   const [department, setDepartment] = useState("")
   const [course, setCourse] = useState("")
-
+  const navigate = useNavigate()
   function saveData(e){
       e.preventDefault()
       let studentData = {name,email,department,course}
@@ -18,6 +20,7 @@ const AddStudent = () => {
         setDepartment("")
         setCourse("")
         toast.success("Student Added")
+        navigate("/viewstudent")
       })
       .catch(err=>console.log(err))
   }
