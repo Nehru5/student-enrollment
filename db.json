@@ -1,27 +1,6 @@
 {
   "students": [
     {
-      "name": "Somanath",
-      "email": "S@gmail.com",
-      "department": "CSE",
-      "course": "PFS",
-      "id": "K33_-Ydg68s"
-    },
-    {
-      "name": "Kiran",
-      "email": "Kiran@gmail.com",
-      "department": "EEE",
-      "course": "JFS",
-      "id": "WQHIHOaPvBI"
-    },
-    {
-      "name": "Sunil",
-      "email": "Sunil@gmail.com",
-      "department": "CSE",
-      "course": "PFS",
-      "id": "-unR7zio2Gk"
-    },
-    {
       "name": "Santhosh",
       "email": "Sant@gmail.com",
       "department": "CSE",
